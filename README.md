@@ -156,12 +156,6 @@ GuardRunner.setup(
       rolesByRoutes: rolesByRoutes,
       isAdminRole: 'admin_role');
 ```
-
-  
-## Example
-
-See the full [example](/example)
-
   
 ## Authors
 
