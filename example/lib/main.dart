@@ -114,6 +114,16 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 child: Text('Conditional navigation to Third')),
 
+            TextButton(
+                onPressed: () {
+                  if (GuardRunner.hasPermission(['app_first_role'])) {
+                    print('has permission')
+                  } else {
+                    print('hasn\'t permission')
+                  }
+                },
+                child: Text('Do something if user has permission')),
+
             GuardRunnerVisibility(
                 child: Text('Showing because has permission...'),
                 roles: ['app_first_role']),

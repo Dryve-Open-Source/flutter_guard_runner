@@ -1,7 +1,7 @@
 name: guard_runner
-description: A new Flutter package project.
+description: A guardian that protects against unauthorized access to routes and actions, as well as protects data viewing, based on the user's roles.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Dryve-Open-Source/flutter_guard_runner
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
